@@ -1,0 +1,45 @@
+.Watch {
+    font-size: larger;
+    font-weight: 900;
+    color: wheat;
+}
+.Watch:hover {
+    color: wheat;
+}
+
+.Watch:visited {
+    color: wheat;
+}
+.navbar {
+    background-color: rgb(3, 3, 46);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.links {
+    float: right;
+    font-size: large;
+    font-weight: 600;
+    color: wheat;
+    border-radius: 10px;
+}
+ /* .janan {
+     color: #e6fcfc;
+     border-bottom: 2px solid wheat;
+ } */
+  
+.links:visited {
+   
+    color: wheat;
+}
+.links::after {
+    color: white;
+    border-bottom: 2px solid wheat;
+}
+.links:hover {
+    color: rgb(197, 197, 227);
+    background-color: rgb(76, 76, 133);
+
+
+}
